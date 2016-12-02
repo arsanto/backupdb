@@ -6,14 +6,14 @@ wget https://raw.githubusercontent.com/arsanto/backupdb/master/backupdb.sh && ch
 
 nano  /usr/local/bin/backupdb.sh
 
-Next thing is to set up a simple cronjob to schedule a backup every night at 1 am:
+seminngu sekali 
 
 nano /etc/crontab
 
 #############
 
 
-0 1 * * * root /usr/local/bin/backupdb.sh
+0 0 * * 1 /usr/local/bin/backupdb.sh
 
 
 ###############
