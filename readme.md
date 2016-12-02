@@ -6,7 +6,7 @@ wget https://raw.githubusercontent.com/arsanto/backupdb/master/backupdb.sh && ch
 
 nano  /usr/local/bin/backupdb.sh
 
-seminngu sekali 
+sehari sekali settiap jam 1 malam 
 
 nano /etc/crontab
 
