@@ -1,10 +1,10 @@
 
-wget https://raw.githubusercontent.com/arsanto/backupdb/master/install.sh && chmod +x install.sh
+wget https://raw.githubusercontent.com/arsanto/backupdb/master/backupdb.sh && chmod +x backupdb.sh $$ cp backupdb.sh /usr/local/bin
 ############
 Next thing is to set up a simple cronjob to schedule a backup every night at 1 am:
 nano /etc/crontab
 #############
-0 1 * * * root /usr/local/sbin/kinamo_mysqlbackup.sh
+0 1 * * * root /usr/local/bin/backupdb.sh
 
 
 ###############
