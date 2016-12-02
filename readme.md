@@ -1,5 +1,5 @@
 
-wget https://raw.githubusercontent.com/arsanto/backupdb/master/backupdb.sh && chmod +x backupdb.sh $$ cp backupdb.sh /usr/local/bin
+wget https://raw.githubusercontent.com/arsanto/backupdb/master/backupdb.sh && chmod +x backupdb.sh && cp backupdb.sh /usr/local/bin
 ############
 Next thing is to set up a simple cronjob to schedule a backup every night at 1 am:
 nano /etc/crontab
