@@ -20,5 +20,5 @@ nano /etc/crontab
 
 
 
-service cron restart
+
 service crond restart
