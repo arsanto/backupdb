@@ -13,7 +13,7 @@ nano /etc/crontab
 #############
 
 
-0 0 * * 1 /usr/local/bin/backupdb.sh
+0 1 * * * /usr/local/bin/backupdb.sh
 
 
 ###############
